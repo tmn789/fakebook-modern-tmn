@@ -17,8 +17,7 @@ $border-radius: 2;
 }
 
 @mixin background-and-drop-shadow() {
-  background-image: linear-gradient(0deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.05) 100%),
-    linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
+  background-image: none;
     @include drop-shadow();
 }
 
@@ -121,7 +120,7 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
   // Changing the layout to fit the grid
 
   .category-breadcrumb {
-    font-size: 1.3em;
+    font-size: 1em;
     .badge-wrapper.bullet .badge-category-parent-bg,
     .badge-wrapper.bullet .badge-category-bg {
       width: 10px;
