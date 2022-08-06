@@ -384,8 +384,7 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
 // Global
 
 body {
-  background-image: linear-gradient(0deg, rgba(var(--secondary-rgb),.97) 100%, rgba(var(--primary-rgb),.97) 100%),
-  linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%);
+  background-image: none;
 }
 
 .topic-list {
@@ -670,7 +669,7 @@ body {
 .deleted {
   .topic-body,
   .topic-avatar {
-    background: var(--danger-low, $danger-low);
+    background: none;
     border-color: var(--danger-medium, $danger-medium);
   }
 }
