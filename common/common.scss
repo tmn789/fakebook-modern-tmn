@@ -1324,3 +1324,8 @@ section.tag-info {
 .discourse-no-touch .d-header-icons .icon:hover, .discourse-no-touch .d-header-icons .icon:focus {
   background-color: transparent;
 }
+
+// CSS cua mình
+.container.posts {
+grid-template-columns: auto 1fr; // bỏ khoảng trắng bên phải, old value was "auto auto" 1fr
+}
