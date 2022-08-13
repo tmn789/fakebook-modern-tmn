@@ -525,9 +525,9 @@ border-top: none;
 
 .d-header-icons .icon:hover, .d-header-icons .icon:focus {
   background-color: transparent;
-  border-top: 1px solid transparent;
-  border-left: 1px solid transparent;
-  border-right: 1px solid transparent;
+  border-top: 0px solid transparent;
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
 }
 
 .d-header-icons .icon img.avatar {
@@ -644,8 +644,8 @@ border-top: none;
     }
   }
   .likes {
-    border-top: 1px solid var(--primary-low, $primary-low);
-    border-bottom: 1px solid var(--primary-low, $primary-low);
+    border-top: 0px solid var(--primary-low, $primary-low);
+    border-bottom: 0px solid var(--primary-low, $primary-low);
     padding: 1em 0;
     margin-bottom: 1em;
 
@@ -812,7 +812,7 @@ border-top: none;
 
 .user-main .about .secondary {
   padding: 0.5em;
-  border: 1px solid var(--primary-low, $primary-low);
+  border: 0px solid var(--primary-low, $primary-low);
   border-radius: #{$border-radius}px;
   margin-top: 0.25em;
 }
@@ -897,7 +897,7 @@ body:not(.user-messages-page) {
       margin-bottom: 0.5em;
       .featured-topic {
         padding-left: 0;
-        border-top: 1px solid var(--primary-low, $primary-low);
+        border-top: 0px solid var(--primary-low, $primary-low);
         padding-top: 0.75em;
       }
     }
@@ -969,7 +969,7 @@ body:not(.user-messages-page) {
   padding: 1.5em 1em 0.5em;
   border-radius: #{$border-radius}px;
   box-sizing: border-box;
-  border: 1px solid $border-color;
+  border: 0px solid $border-color;
   .category-box {
     width: 100%;
     border-radius: #{$border-radius}px;
