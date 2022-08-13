@@ -1329,3 +1329,14 @@ section.tag-info {
 .container.posts {
 grid-template-columns: auto 1fr; // bỏ khoảng trắng bên phải, old value was "auto auto" 1fr
 }
+
+.mfp-bottom-bar .image-source-link:first-of-type {
+display: none;
+} // bỏ nút download tấm hình.
+
+.mfp-bottom-bar{display:none;}
+.meta{display:none;} // ẩn thông tin tấm hình khi rê chuột vào..
+
+.timeline-container{
+display:none;
+} // tắt timeline bên cạnh bài post
